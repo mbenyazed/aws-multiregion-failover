@@ -1,7 +1,7 @@
-Project Overview
+Project Overview:
 As part of my transition into enterprise cloud infrastructure and my CCNA studies, I designed a resilient, event-driven active-passive failover architecture in AWS. This project bridges textbook networking concepts with production-grade cloud reality.
 
-Core Infrastructure Mechanisms
+Core Infrastructure Mechanisms:
 Edge Routing: Utilized Amazon CloudFront Origin Groups to route traffic away from failing origins without waiting for DNS TTL expirations.
 
 State Synchronization: Implemented cross-region RDS PostgreSQL replication to maintain data integrity during a regional outage.
